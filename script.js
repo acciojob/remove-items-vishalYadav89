@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let select  = document.getElementById("colorSelect");
-let button = document.queyrSelector('input[type="button"]');
+let button = document.querySelector('input[type="button"]');
 
 button.addEventListener("click" , function(){
 	const choosen = select.selectedIndex;
